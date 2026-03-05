@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #1a1a1a;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: url('images/banner.png') center/cover no-repeat;
+}
+
+header .logo {
+  width: 150px;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 10px 0;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #ff4500;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ff7700;
+}
+
+section.packages {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.package-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.package {
+  background: #222;
+  padding: 20px;
+  width: 220px;
+  border-radius: 10px;
+}
+
+.package h3 {
+  margin-top: 0;
+}
+
+section#discord {
+  text-align: center;
+  padding: 50px 20px;
+  background: #333;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+}
